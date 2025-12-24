@@ -1,0 +1,376 @@
+// Mock data for DSA Tracker Application
+
+// Topics Collection
+const topics = [
+  {
+    _id: "507f1f77bcf86cd799439011",
+    name: "Arrays",
+    description: "Problems related to array data structures, including traversal, manipulation, and algorithms",
+    order: 1,
+    createdAt: new Date("2024-01-15T10:00:00Z"),
+    updatedAt: new Date("2024-01-15T10:00:00Z")
+  },
+  {
+    _id: "507f1f77bcf86cd799439012",
+    name: "Strings",
+    description: "String manipulation, pattern matching, and text processing problems",
+    order: 2,
+    createdAt: new Date("2024-01-15T10:05:00Z"),
+    updatedAt: new Date("2024-01-15T10:05:00Z")
+  },
+  {
+    _id: "507f1f77bcf86cd799439013",
+    name: "Linked Lists",
+    description: "Singly linked lists, doubly linked lists, and circular linked lists",
+    order: 3,
+    createdAt: new Date("2024-01-15T10:10:00Z"),
+    updatedAt: new Date("2024-01-15T10:10:00Z")
+  },
+  {
+    _id: "507f1f77bcf86cd799439014",
+    name: "Trees",
+    description: "Binary trees, BST, AVL trees, and tree traversal algorithms",
+    order: 4,
+    createdAt: new Date("2024-01-15T10:15:00Z"),
+    updatedAt: new Date("2024-01-15T10:15:00Z")
+  },
+  {
+    _id: "507f1f77bcf86cd799439015",
+    name: "Dynamic Programming",
+    description: "Optimization problems using memoization and tabulation",
+    order: 5,
+    createdAt: new Date("2024-01-15T10:20:00Z"),
+    updatedAt: new Date("2024-01-15T10:20:00Z")
+  },
+  {
+    _id: "507f1f77bcf86cd799439016",
+    name: "Graphs",
+    description: "Graph traversal, shortest path, and graph algorithms",
+    order: 6,
+    createdAt: new Date("2024-01-15T10:25:00Z"),
+    updatedAt: new Date("2024-01-15T10:25:00Z")
+  }
+];
+
+// Problems Collection
+const problems = [
+  // Arrays Problems
+  {
+    _id: "607f1f77bcf86cd799439021",
+    title: "Two Sum",
+    description: "Given an array of integers nums and an integer target, return indices of the two numbers that add up to target.",
+    difficulty: "EASY",
+    topicId: "507f1f77bcf86cd799439011",
+    order: 1,
+    links: {
+      leetcode: "https://leetcode.com/problems/two-sum/",
+      youtubelink: "https://www.youtube.com/watch?v=KLlXCFG5TnA",
+      article: "https://www.geeksforgeeks.org/given-an-array-a-and-a-number-x-check-for-pair-in-a-with-sum-as-x/",
+      otherLinks: []
+    },
+    tags: ["Hash Table", "Array"],
+    companyTags: ["Google", "Amazon", "Facebook", "Microsoft"],
+    hints: [
+      "Try using a hash map to store the numbers you've seen",
+      "For each number, check if target - number exists in the hash map"
+    ],
+    createdAt: new Date("2024-01-15T11:00:00Z"),
+    updatedAt: new Date("2024-01-15T11:00:00Z")
+  },
+  {
+    _id: "607f1f77bcf86cd799439022",
+    title: "Best Time to Buy and Sell Stock",
+    description: "Find the maximum profit you can achieve from buying and selling stock once.",
+    difficulty: "EASY",
+    topicId: "507f1f77bcf86cd799439011",
+    order: 2,
+    links: {
+      leetcode: "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+      youtubelink: "https://www.youtube.com/watch?v=1pkOgXD63yU",
+      article: "https://www.geeksforgeeks.org/best-time-to-buy-and-sell-stock/",
+      otherLinks: []
+    },
+    tags: ["Array", "Dynamic Programming"],
+    companyTags: ["Amazon", "Bloomberg", "Facebook"],
+    hints: [
+      "Keep track of the minimum price seen so far",
+      "Calculate profit at each point and keep track of maximum"
+    ],
+    createdAt: new Date("2024-01-15T11:10:00Z"),
+    updatedAt: new Date("2024-01-15T11:10:00Z")
+  },
+  {
+    _id: "607f1f77bcf86cd799439023",
+    title: "Maximum Subarray",
+    description: "Find the contiguous subarray with the largest sum (Kadane's Algorithm).",
+    difficulty: "MEDIUM",
+    topicId: "507f1f77bcf86cd799439011",
+    order: 3,
+    links: {
+      leetcode: "https://leetcode.com/problems/maximum-subarray/",
+      youtubelink: "https://www.youtube.com/watch?v=w_KEoQvnC-Y",
+      article: "https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/",
+      otherLinks: []
+    },
+    tags: ["Array", "Dynamic Programming", "Divide and Conquer"],
+    companyTags: ["LinkedIn", "Amazon", "Microsoft"],
+    hints: [
+      "Use Kadane's algorithm",
+      "Keep track of current sum and maximum sum"
+    ],
+    createdAt: new Date("2024-01-15T11:20:00Z"),
+    updatedAt: new Date("2024-01-15T11:20:00Z")
+  },
+  {
+    _id: "607f1f77bcf86cd799439024",
+    title: "Trapping Rain Water",
+    description: "Calculate how much water can be trapped after raining given elevation map.",
+    difficulty: "HARD",
+    topicId: "507f1f77bcf86cd799439011",
+    order: 4,
+    links: {
+      leetcode: "https://leetcode.com/problems/trapping-rain-water/",
+      youtubelink: "https://www.youtube.com/watch?v=m18Hntz4go8",
+      article: "https://www.geeksforgeeks.org/trapping-rain-water/",
+      otherLinks: []
+    },
+    tags: ["Array", "Two Pointers", "Stack"],
+    companyTags: ["Google", "Amazon", "Facebook", "Apple"],
+    hints: [
+      "Use two pointer approach",
+      "Water trapped at each position depends on min of max heights on both sides"
+    ],
+    createdAt: new Date("2024-01-15T11:30:00Z"),
+    updatedAt: new Date("2024-01-15T11:30:00Z")
+  },
+
+  // String Problems
+  {
+    _id: "607f1f77bcf86cd799439025",
+    title: "Valid Palindrome",
+    description: "Check if a string is a palindrome considering only alphanumeric characters.",
+    difficulty: "EASY",
+    topicId: "507f1f77bcf86cd799439012",
+    order: 1,
+    links: {
+      leetcode: "https://leetcode.com/problems/valid-palindrome/",
+      youtubelink: "https://www.youtube.com/watch?v=jJXJ16kPFWg",
+      article: "https://www.geeksforgeeks.org/c-program-check-given-string-palindrome/",
+      otherLinks: []
+    },
+    tags: ["String", "Two Pointers"],
+    companyTags: ["Facebook", "Microsoft", "Amazon"],
+    hints: [
+      "Use two pointers from start and end",
+      "Skip non-alphanumeric characters"
+    ],
+    createdAt: new Date("2024-01-15T11:40:00Z"),
+    updatedAt: new Date("2024-01-15T11:40:00Z")
+  },
+  {
+    _id: "607f1f77bcf86cd799439026",
+    title: "Longest Substring Without Repeating Characters",
+    description: "Find the length of the longest substring without repeating characters.",
+    difficulty: "MEDIUM",
+    topicId: "507f1f77bcf86cd799439012",
+    order: 2,
+    links: {
+      leetcode: "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+      youtubelink: "https://www.youtube.com/watch?v=wiGpQwVHdE0",
+      article: "https://www.geeksforgeeks.org/length-of-the-longest-substring-without-repeating-characters/",
+      otherLinks: []
+    },
+    tags: ["String", "Hash Table", "Sliding Window"],
+    companyTags: ["Amazon", "Google", "Bloomberg", "Adobe"],
+    hints: [
+      "Use sliding window technique",
+      "Keep track of character positions using hash map"
+    ],
+    createdAt: new Date("2024-01-15T11:50:00Z"),
+    updatedAt: new Date("2024-01-15T11:50:00Z")
+  },
+
+  // Linked List Problems
+  {
+    _id: "607f1f77bcf86cd799439027",
+    title: "Reverse Linked List",
+    description: "Reverse a singly linked list iteratively or recursively.",
+    difficulty: "EASY",
+    topicId: "507f1f77bcf86cd799439013",
+    order: 1,
+    links: {
+      leetcode: "https://leetcode.com/problems/reverse-linked-list/",
+      youtubelink: "https://www.youtube.com/watch?v=G0_I-ZF0S38",
+      article: "https://www.geeksforgeeks.org/reverse-a-linked-list/",
+      otherLinks: []
+    },
+    tags: ["Linked List", "Recursion"],
+    companyTags: ["Amazon", "Microsoft", "Adobe", "Google"],
+    hints: [
+      "Keep track of previous, current, and next nodes",
+      "Can also solve recursively"
+    ],
+    createdAt: new Date("2024-01-15T12:00:00Z"),
+    updatedAt: new Date("2024-01-15T12:00:00Z")
+  },
+  {
+    _id: "607f1f77bcf86cd799439028",
+    title: "Merge Two Sorted Lists",
+    description: "Merge two sorted linked lists into one sorted list.",
+    difficulty: "EASY",
+    topicId: "507f1f77bcf86cd799439013",
+    order: 2,
+    links: {
+      leetcode: "https://leetcode.com/problems/merge-two-sorted-lists/",
+      youtubelink: "https://www.youtube.com/watch?v=XIdigk956u0",
+      article: "https://www.geeksforgeeks.org/merge-two-sorted-linked-lists/",
+      otherLinks: []
+    },
+    tags: ["Linked List", "Recursion"],
+    companyTags: ["Amazon", "Microsoft", "Apple"],
+    hints: [
+      "Use a dummy node to simplify edge cases",
+      "Compare nodes from both lists and attach smaller one"
+    ],
+    createdAt: new Date("2024-01-15T12:10:00Z"),
+    updatedAt: new Date("2024-01-15T12:10:00Z")
+  },
+
+  // Tree Problems
+  {
+    _id: "607f1f77bcf86cd799439029",
+    title: "Binary Tree Inorder Traversal",
+    description: "Return the inorder traversal of a binary tree's nodes' values.",
+    difficulty: "EASY",
+    topicId: "507f1f77bcf86cd799439014",
+    order: 1,
+    links: {
+      leetcode: "https://leetcode.com/problems/binary-tree-inorder-traversal/",
+      youtubelink: "https://www.youtube.com/watch?v=5dySuyZf9Qg",
+      article: "https://www.geeksforgeeks.org/inorder-tree-traversal-without-recursion/",
+      otherLinks: []
+    },
+    tags: ["Tree", "Stack", "DFS"],
+    companyTags: ["Microsoft", "Amazon", "Facebook"],
+    hints: [
+      "Can be solved recursively or iteratively using stack",
+      "Inorder: Left -> Root -> Right"
+    ],
+    createdAt: new Date("2024-01-15T12:20:00Z"),
+    updatedAt: new Date("2024-01-15T12:20:00Z")
+  },
+  {
+    _id: "607f1f77bcf86cd799439030",
+    title: "Validate Binary Search Tree",
+    description: "Determine if a given binary tree is a valid binary search tree.",
+    difficulty: "MEDIUM",
+    topicId: "507f1f77bcf86cd799439014",
+    order: 2,
+    links: {
+      leetcode: "https://leetcode.com/problems/validate-binary-search-tree/",
+      youtubelink: "https://www.youtube.com/watch?v=s6ATEkipzow",
+      article: "https://www.geeksforgeeks.org/a-program-to-check-if-a-binary-tree-is-bst-or-not/",
+      otherLinks: []
+    },
+    tags: ["Tree", "DFS", "BST"],
+    companyTags: ["Amazon", "Microsoft", "Facebook", "Bloomberg"],
+    hints: [
+      "Each node must be within a valid range",
+      "Use inorder traversal - should be sorted"
+    ],
+    createdAt: new Date("2024-01-15T12:30:00Z"),
+    updatedAt: new Date("2024-01-15T12:30:00Z")
+  },
+
+  // Dynamic Programming Problems
+  {
+    _id: "607f1f77bcf86cd799439031",
+    title: "Climbing Stairs",
+    description: "Count ways to reach the nth step taking 1 or 2 steps at a time.",
+    difficulty: "EASY",
+    topicId: "507f1f77bcf86cd799439015",
+    order: 1,
+    links: {
+      leetcode: "https://leetcode.com/problems/climbing-stairs/",
+      youtubelink: "https://www.youtube.com/watch?v=Y0lT9Fck7qI",
+      article: "https://www.geeksforgeeks.org/count-ways-reach-nth-stair/",
+      otherLinks: []
+    },
+    tags: ["Dynamic Programming", "Math"],
+    companyTags: ["Adobe", "Amazon", "Google"],
+    hints: [
+      "It's a Fibonacci sequence problem",
+      "Use DP or recursion with memoization"
+    ],
+    createdAt: new Date("2024-01-15T12:40:00Z"),
+    updatedAt: new Date("2024-01-15T12:40:00Z")
+  },
+  {
+    _id: "607f1f77bcf86cd799439032",
+    title: "Longest Common Subsequence",
+    description: "Find the length of the longest subsequence common to two strings.",
+    difficulty: "MEDIUM",
+    topicId: "507f1f77bcf86cd799439015",
+    order: 2,
+    links: {
+      leetcode: "https://leetcode.com/problems/longest-common-subsequence/",
+      youtubelink: "https://www.youtube.com/watch?v=Ua0GhsJSlWM",
+      article: "https://www.geeksforgeeks.org/longest-common-subsequence-dp-4/",
+      otherLinks: []
+    },
+    tags: ["Dynamic Programming", "String"],
+    companyTags: ["Google", "Amazon", "Microsoft"],
+    hints: [
+      "Use 2D DP table",
+      "If characters match, add 1 to diagonal value"
+    ],
+    createdAt: new Date("2024-01-15T12:50:00Z"),
+    updatedAt: new Date("2024-01-15T12:50:00Z")
+  },
+
+  // Graph Problems
+  {
+    _id: "607f1f77bcf86cd799439033",
+    title: "Number of Islands",
+    description: "Count the number of islands in a 2D grid (DFS/BFS).",
+    difficulty: "MEDIUM",
+    topicId: "507f1f77bcf86cd799439016",
+    order: 1,
+    links: {
+      leetcode: "https://leetcode.com/problems/number-of-islands/",
+      youtubelink: "https://www.youtube.com/watch?v=pV2kpPD66nE",
+      article: "https://www.geeksforgeeks.org/find-number-of-islands/",
+      otherLinks: []
+    },
+    tags: ["Graph", "DFS", "BFS", "Union Find"],
+    companyTags: ["Amazon", "Facebook", "Google", "Microsoft"],
+    hints: [
+      "Use DFS or BFS to mark visited land",
+      "Count number of DFS/BFS calls"
+    ],
+    createdAt: new Date("2024-01-15T13:00:00Z"),
+    updatedAt: new Date("2024-01-15T13:00:00Z")
+  },
+  {
+    _id: "607f1f77bcf86cd799439034",
+    title: "Course Schedule",
+    description: "Determine if you can finish all courses given prerequisites (cycle detection).",
+    difficulty: "MEDIUM",
+    topicId: "507f1f77bcf86cd799439016",
+    order: 2,
+    links: {
+      leetcode: "https://leetcode.com/problems/course-schedule/",
+      youtubelink: "https://www.youtube.com/watch?v=EgI5nU9etnU",
+      article: "https://www.geeksforgeeks.org/detect-cycle-in-a-graph/",
+      otherLinks: []
+    },
+    tags: ["Graph", "DFS", "Topological Sort"],
+    companyTags: ["Amazon", "Google", "Facebook", "Uber"],
+    hints: [
+      "This is cycle detection in directed graph",
+      "Use DFS with visited and recursion stack tracking"
+    ],
+    createdAt: new Date("2024-01-15T13:10:00Z"),
+    updatedAt: new Date("2024-01-15T13:10:00Z")
+  }
+];

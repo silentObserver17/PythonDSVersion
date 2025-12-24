@@ -1,0 +1,100 @@
+// Mock data for DSA Tracker Application
+
+// Topics Collection
+const topics = [
+  {
+    _id: "507f1f77bcf86cd799439011",
+    name: "Arrays",
+    description: "Problems related to array data structures, including traversal, manipulation, and algorithms",
+    order: 1,
+    createdAt: new Date("2024-01-15T10:00:00Z"),
+    updatedAt: new Date("2024-01-15T10:00:00Z")
+  },
+  {
+    _id: "507f1f77bcf86cd799439012",
+    name: "Strings",
+    description: "String manipulation, pattern matching, and text processing problems",
+    order: 2,
+    createdAt: new Date("2024-01-15T10:05:00Z"),
+    updatedAt: new Date("2024-01-15T10:05:00Z")
+  },
+  {
+    _id: "507f1f77bcf86cd799439013",
+    name: "Linked Lists",
+    description: "Singly linked lists, doubly linked lists, and circular linked lists",
+    order: 3,
+    createdAt: new Date("2024-01-15T10:10:00Z"),
+    updatedAt: new Date("2024-01-15T10:10:00Z")
+  },
+  {
+    _id: "507f1f77bcf86cd799439014",
+    name: "Trees",
+    description: "Binary trees, BST, AVL trees, and tree traversal algorithms",
+    order: 4,
+    createdAt: new Date("2024-01-15T10:15:00Z"),
+    updatedAt: new Date("2024-01-15T10:15:00Z")
+  },
+  {
+    _id: "507f1f77bcf86cd799439015",
+    name: "Dynamic Programming",
+    description: "Optimization problems using memoization and tabulation",
+    order: 5,
+    createdAt: new Date("2024-01-15T10:20:00Z"),
+    updatedAt: new Date("2024-01-15T10:20:00Z")
+  },
+  {
+    _id: "507f1f77bcf86cd799439016",
+    name: "Graphs",
+    description: "Graph traversal, shortest path, and graph algorithms",
+    order: 6,
+    createdAt: new Date("2024-01-15T10:25:00Z"),
+    updatedAt: new Date("2024-01-15T10:25:00Z")
+  }
+];
+
+// Problems Collection
+const problems = [
+  // Arrays Problems
+  {
+    _id: "607f1f77bcf86cd799439021",
+    title: "Two Sum",
+    description: "Given an array of integers nums and an integer target, return indices of the two numbers that add up to target.",
+    difficulty: "EASY",
+    topicId: "507f1f77bcf86cd799439011",
+    order: 1,
+    links: {
+      leetcode: "https://leetcode.com/problems/two-sum/",
+      youtubelink: "https://www.youtube.com/watch?v=KLlXCFG5TnA",
+      article: "https://www.geeksforgeeks.org/given-an-array-a-and-a-number-x-check-for-pair-in-a-with-sum-as-x/",
+      otherLinks: []
+    },
+    tags: ["Hash Table", "Array"],
+    companyTags: ["Google", "Amazon", "Facebook", "Microsoft"],
+    hints: [
+      "Try using a hash map to store the numbers you've seen",
+      "For each number, check if target - number exists in the hash map"
+    ],
+    createdAt: new Date("2024-01-15T11:00:00Z"),
+    updatedAt: new Date("2024-01-15T11:00:00Z")
+  },
+  {
+    _id: "607f1f77bcf86cd799439022",
+    title: "Best Time to Buy and Sell Stock",
+    description: "Find the maximum profit you can achieve from buying and selling stock once.",
+    difficulty: "EASY",
+    topicId: "507f1f77bcf86cd799439011",
+    order: 2,
+    links: {
+      leetcode: "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+      youtubelink: "https://www.youtube.com/watch?v=1pkOgXD63yU",
+      article: "https://www.geeksforgeeks.org/best-time-to-buy-and-sell-stock/",
+      otherLinks: []
+    },
+    tags: ["Array", "Dynamic Programming"],
+    companyTags: ["Amazon", "Bloomberg", "Facebook"],
+    hints: [
+      "Keep track of the minimum price seen so far",
+      "Calculate profit at each point and keep track of maximum"
+    ],
+    createdAt: new Date("2024-01-15T11:10:00Z"),
+    updatedAt: new Date("2024-01-15T11:10:00Z")

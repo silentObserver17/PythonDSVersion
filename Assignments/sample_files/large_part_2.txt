@@ -1,0 +1,100 @@
+  },
+  {
+    _id: "607f1f77bcf86cd799439023",
+    title: "Maximum Subarray",
+    description: "Find the contiguous subarray with the largest sum (Kadane's Algorithm).",
+    difficulty: "MEDIUM",
+    topicId: "507f1f77bcf86cd799439011",
+    order: 3,
+    links: {
+      leetcode: "https://leetcode.com/problems/maximum-subarray/",
+      youtubelink: "https://www.youtube.com/watch?v=w_KEoQvnC-Y",
+      article: "https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/",
+      otherLinks: []
+    },
+    tags: ["Array", "Dynamic Programming", "Divide and Conquer"],
+    companyTags: ["LinkedIn", "Amazon", "Microsoft"],
+    hints: [
+      "Use Kadane's algorithm",
+      "Keep track of current sum and maximum sum"
+    ],
+    createdAt: new Date("2024-01-15T11:20:00Z"),
+    updatedAt: new Date("2024-01-15T11:20:00Z")
+  },
+  {
+    _id: "607f1f77bcf86cd799439024",
+    title: "Trapping Rain Water",
+    description: "Calculate how much water can be trapped after raining given elevation map.",
+    difficulty: "HARD",
+    topicId: "507f1f77bcf86cd799439011",
+    order: 4,
+    links: {
+      leetcode: "https://leetcode.com/problems/trapping-rain-water/",
+      youtubelink: "https://www.youtube.com/watch?v=m18Hntz4go8",
+      article: "https://www.geeksforgeeks.org/trapping-rain-water/",
+      otherLinks: []
+    },
+    tags: ["Array", "Two Pointers", "Stack"],
+    companyTags: ["Google", "Amazon", "Facebook", "Apple"],
+    hints: [
+      "Use two pointer approach",
+      "Water trapped at each position depends on min of max heights on both sides"
+    ],
+    createdAt: new Date("2024-01-15T11:30:00Z"),
+    updatedAt: new Date("2024-01-15T11:30:00Z")
+  },
+
+  // String Problems
+  {
+    _id: "607f1f77bcf86cd799439025",
+    title: "Valid Palindrome",
+    description: "Check if a string is a palindrome considering only alphanumeric characters.",
+    difficulty: "EASY",
+    topicId: "507f1f77bcf86cd799439012",
+    order: 1,
+    links: {
+      leetcode: "https://leetcode.com/problems/valid-palindrome/",
+      youtubelink: "https://www.youtube.com/watch?v=jJXJ16kPFWg",
+      article: "https://www.geeksforgeeks.org/c-program-check-given-string-palindrome/",
+      otherLinks: []
+    },
+    tags: ["String", "Two Pointers"],
+    companyTags: ["Facebook", "Microsoft", "Amazon"],
+    hints: [
+      "Use two pointers from start and end",
+      "Skip non-alphanumeric characters"
+    ],
+    createdAt: new Date("2024-01-15T11:40:00Z"),
+    updatedAt: new Date("2024-01-15T11:40:00Z")
+  },
+  {
+    _id: "607f1f77bcf86cd799439026",
+    title: "Longest Substring Without Repeating Characters",
+    description: "Find the length of the longest substring without repeating characters.",
+    difficulty: "MEDIUM",
+    topicId: "507f1f77bcf86cd799439012",
+    order: 2,
+    links: {
+      leetcode: "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+      youtubelink: "https://www.youtube.com/watch?v=wiGpQwVHdE0",
+      article: "https://www.geeksforgeeks.org/length-of-the-longest-substring-without-repeating-characters/",
+      otherLinks: []
+    },
+    tags: ["String", "Hash Table", "Sliding Window"],
+    companyTags: ["Amazon", "Google", "Bloomberg", "Adobe"],
+    hints: [
+      "Use sliding window technique",
+      "Keep track of character positions using hash map"
+    ],
+    createdAt: new Date("2024-01-15T11:50:00Z"),
+    updatedAt: new Date("2024-01-15T11:50:00Z")
+  },
+
+  // Linked List Problems
+  {
+    _id: "607f1f77bcf86cd799439027",
+    title: "Reverse Linked List",
+    description: "Reverse a singly linked list iteratively or recursively.",
+    difficulty: "EASY",
+    topicId: "507f1f77bcf86cd799439013",
+    order: 1,

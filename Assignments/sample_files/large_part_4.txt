@@ -1,0 +1,76 @@
+    hints: [
+      "It's a Fibonacci sequence problem",
+      "Use DP or recursion with memoization"
+    ],
+    createdAt: new Date("2024-01-15T12:40:00Z"),
+    updatedAt: new Date("2024-01-15T12:40:00Z")
+  },
+  {
+    _id: "607f1f77bcf86cd799439032",
+    title: "Longest Common Subsequence",
+    description: "Find the length of the longest subsequence common to two strings.",
+    difficulty: "MEDIUM",
+    topicId: "507f1f77bcf86cd799439015",
+    order: 2,
+    links: {
+      leetcode: "https://leetcode.com/problems/longest-common-subsequence/",
+      youtubelink: "https://www.youtube.com/watch?v=Ua0GhsJSlWM",
+      article: "https://www.geeksforgeeks.org/longest-common-subsequence-dp-4/",
+      otherLinks: []
+    },
+    tags: ["Dynamic Programming", "String"],
+    companyTags: ["Google", "Amazon", "Microsoft"],
+    hints: [
+      "Use 2D DP table",
+      "If characters match, add 1 to diagonal value"
+    ],
+    createdAt: new Date("2024-01-15T12:50:00Z"),
+    updatedAt: new Date("2024-01-15T12:50:00Z")
+  },
+
+  // Graph Problems
+  {
+    _id: "607f1f77bcf86cd799439033",
+    title: "Number of Islands",
+    description: "Count the number of islands in a 2D grid (DFS/BFS).",
+    difficulty: "MEDIUM",
+    topicId: "507f1f77bcf86cd799439016",
+    order: 1,
+    links: {
+      leetcode: "https://leetcode.com/problems/number-of-islands/",
+      youtubelink: "https://www.youtube.com/watch?v=pV2kpPD66nE",
+      article: "https://www.geeksforgeeks.org/find-number-of-islands/",
+      otherLinks: []
+    },
+    tags: ["Graph", "DFS", "BFS", "Union Find"],
+    companyTags: ["Amazon", "Facebook", "Google", "Microsoft"],
+    hints: [
+      "Use DFS or BFS to mark visited land",
+      "Count number of DFS/BFS calls"
+    ],
+    createdAt: new Date("2024-01-15T13:00:00Z"),
+    updatedAt: new Date("2024-01-15T13:00:00Z")
+  },
+  {
+    _id: "607f1f77bcf86cd799439034",
+    title: "Course Schedule",
+    description: "Determine if you can finish all courses given prerequisites (cycle detection).",
+    difficulty: "MEDIUM",
+    topicId: "507f1f77bcf86cd799439016",
+    order: 2,
+    links: {
+      leetcode: "https://leetcode.com/problems/course-schedule/",
+      youtubelink: "https://www.youtube.com/watch?v=EgI5nU9etnU",
+      article: "https://www.geeksforgeeks.org/detect-cycle-in-a-graph/",
+      otherLinks: []
+    },
+    tags: ["Graph", "DFS", "Topological Sort"],
+    companyTags: ["Amazon", "Google", "Facebook", "Uber"],
+    hints: [
+      "This is cycle detection in directed graph",
+      "Use DFS with visited and recursion stack tracking"
+    ],
+    createdAt: new Date("2024-01-15T13:10:00Z"),
+    updatedAt: new Date("2024-01-15T13:10:00Z")
+  }
+];

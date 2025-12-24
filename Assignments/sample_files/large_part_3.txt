@@ -1,0 +1,100 @@
+    links: {
+      leetcode: "https://leetcode.com/problems/reverse-linked-list/",
+      youtubelink: "https://www.youtube.com/watch?v=G0_I-ZF0S38",
+      article: "https://www.geeksforgeeks.org/reverse-a-linked-list/",
+      otherLinks: []
+    },
+    tags: ["Linked List", "Recursion"],
+    companyTags: ["Amazon", "Microsoft", "Adobe", "Google"],
+    hints: [
+      "Keep track of previous, current, and next nodes",
+      "Can also solve recursively"
+    ],
+    createdAt: new Date("2024-01-15T12:00:00Z"),
+    updatedAt: new Date("2024-01-15T12:00:00Z")
+  },
+  {
+    _id: "607f1f77bcf86cd799439028",
+    title: "Merge Two Sorted Lists",
+    description: "Merge two sorted linked lists into one sorted list.",
+    difficulty: "EASY",
+    topicId: "507f1f77bcf86cd799439013",
+    order: 2,
+    links: {
+      leetcode: "https://leetcode.com/problems/merge-two-sorted-lists/",
+      youtubelink: "https://www.youtube.com/watch?v=XIdigk956u0",
+      article: "https://www.geeksforgeeks.org/merge-two-sorted-linked-lists/",
+      otherLinks: []
+    },
+    tags: ["Linked List", "Recursion"],
+    companyTags: ["Amazon", "Microsoft", "Apple"],
+    hints: [
+      "Use a dummy node to simplify edge cases",
+      "Compare nodes from both lists and attach smaller one"
+    ],
+    createdAt: new Date("2024-01-15T12:10:00Z"),
+    updatedAt: new Date("2024-01-15T12:10:00Z")
+  },
+
+  // Tree Problems
+  {
+    _id: "607f1f77bcf86cd799439029",
+    title: "Binary Tree Inorder Traversal",
+    description: "Return the inorder traversal of a binary tree's nodes' values.",
+    difficulty: "EASY",
+    topicId: "507f1f77bcf86cd799439014",
+    order: 1,
+    links: {
+      leetcode: "https://leetcode.com/problems/binary-tree-inorder-traversal/",
+      youtubelink: "https://www.youtube.com/watch?v=5dySuyZf9Qg",
+      article: "https://www.geeksforgeeks.org/inorder-tree-traversal-without-recursion/",
+      otherLinks: []
+    },
+    tags: ["Tree", "Stack", "DFS"],
+    companyTags: ["Microsoft", "Amazon", "Facebook"],
+    hints: [
+      "Can be solved recursively or iteratively using stack",
+      "Inorder: Left -> Root -> Right"
+    ],
+    createdAt: new Date("2024-01-15T12:20:00Z"),
+    updatedAt: new Date("2024-01-15T12:20:00Z")
+  },
+  {
+    _id: "607f1f77bcf86cd799439030",
+    title: "Validate Binary Search Tree",
+    description: "Determine if a given binary tree is a valid binary search tree.",
+    difficulty: "MEDIUM",
+    topicId: "507f1f77bcf86cd799439014",
+    order: 2,
+    links: {
+      leetcode: "https://leetcode.com/problems/validate-binary-search-tree/",
+      youtubelink: "https://www.youtube.com/watch?v=s6ATEkipzow",
+      article: "https://www.geeksforgeeks.org/a-program-to-check-if-a-binary-tree-is-bst-or-not/",
+      otherLinks: []
+    },
+    tags: ["Tree", "DFS", "BST"],
+    companyTags: ["Amazon", "Microsoft", "Facebook", "Bloomberg"],
+    hints: [
+      "Each node must be within a valid range",
+      "Use inorder traversal - should be sorted"
+    ],
+    createdAt: new Date("2024-01-15T12:30:00Z"),
+    updatedAt: new Date("2024-01-15T12:30:00Z")
+  },
+
+  // Dynamic Programming Problems
+  {
+    _id: "607f1f77bcf86cd799439031",
+    title: "Climbing Stairs",
+    description: "Count ways to reach the nth step taking 1 or 2 steps at a time.",
+    difficulty: "EASY",
+    topicId: "507f1f77bcf86cd799439015",
+    order: 1,
+    links: {
+      leetcode: "https://leetcode.com/problems/climbing-stairs/",
+      youtubelink: "https://www.youtube.com/watch?v=Y0lT9Fck7qI",
+      article: "https://www.geeksforgeeks.org/count-ways-reach-nth-stair/",
+      otherLinks: []
+    },
+    tags: ["Dynamic Programming", "Math"],
+    companyTags: ["Adobe", "Amazon", "Google"],

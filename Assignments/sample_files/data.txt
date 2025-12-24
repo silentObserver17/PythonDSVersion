@@ -1,0 +1,12 @@
+INSERT INTO doors (door_code, door_name, category_id, location, floor_level, company_id, is_active) VALUES
+-- SMT Barriers (Company ID: 1)
+('SMT_BARRIER_IN', 'SMT Barrier IN', 1, 'SMT Building', 'Ground Floor', 1, TRUE),
+('SMT_BARRIER_OUT', 'SMT Barrier OUT', 1, 'SMT Building', 'Ground Floor', 1, TRUE),
+('SMT_BARRIER_LIFT_IN', 'SMT Barrier Lift IN', 1, 'SMT Building', 'Ground Floor', 1, TRUE),
+('SMT_BARRIER_LIFT_OUT', 'SMT Barrier Lift OUT', 1, 'SMT Building', 'Ground Floor', 1, TRUE),
+
+-- SMT Main Entries and Lifts (Company ID: 1)
+('SMT_MAIN_ENTRY_NR_LIFT_5', 'SMT Main Entry Nr Lift 5', 2, 'SMT Building', 'Ground Floor', 1, TRUE),
+('SMT_RND_MAIN_ENTRY', 'FF SMT R&D Main Entry', 2, 'SMT Building', '1st Floor', 1, TRUE),
+('SMT_LAB_MAIN_ENTRY', 'GF SMT LAB Main Entry', 2, 'SMT Building', 'Ground Floor', 1, TRUE),
+('SMT_BUILDING_MAINGATE', 'SMT Building MainGate', 8, 'SMT Building', 'Ground Floor', 1, TRUE),

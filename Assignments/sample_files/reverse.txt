@@ -1,0 +1,5 @@
+Final takeaway
+Never modify a file while iterating over it
+Avoid "r+" unless you know exactly what you’re doing
+Don’t use strip() unless explicitly required
+Best pattern: read → modify → write

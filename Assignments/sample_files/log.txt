@@ -1,0 +1,9 @@
+[GIN] 2025/12/24 - 10:15:29 | 200 |     883.572µs |       127.0.0.1 | GET      "/api/v1/departments/all?page=4&limit=10&search=&is_active=true&company_id=1"
+[GIN] 2025/12/24 - 10:15:29 | 200 |     843.199µs |       127.0.0.1 | GET      "/api/v1/departments/all?page=4&limit=10&search=&is_active=true&company_id=1"
+[GIN] 2025/12/24 - 10:15:32 | 200 |    1.095034ms |       127.0.0.1 | GET      "/api/v1/departments/all?page=3&limit=10&search=&is_active=true&company_id=1"
+[GIN] 2025/12/24 - 10:15:32 | 200 |    1.105462ms |       127.0.0.1 | GET      "/api/v1/departments/all?page=3&limit=10&search=&is_active=true&company_id=1"
+[GIN] 2025/12/24 - 10:15:36 | 200 |     1.24037ms |       127.0.0.1 | GET      "/api/v1/departments/all?page=2&limit=10&search=&is_active=true&company_id=1"
+[GIN] 2025/12/24 - 10:15:36 | 200 |    1.003956ms |       127.0.0.1 | GET      "/api/v1/departments/all?page=2&limit=10&search=&is_active=true&company_id=1"
+[GIN] 2025/12/24 - 10:15:38 | 200 |    1.087572ms |       127.0.0.1 | GET      "/api/v1/departments/all?page=1&limit=10&search=&is_active=true&company_id=1"
+[GIN] 2025/12/24 - 10:15:38 | 200 |    1.141544ms |       127.0.0.1 | GET      "/api/v1/departments/all?page=1&limit=10&search=&is_active=true&company_id=1"new line on the logs
+new line on the logs

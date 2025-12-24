@@ -1,0 +1,33 @@
+                   List of tables
+ Schema |          Name           | Type  |  Owner
+--------+-------------------------+-------+----------
+ public | access_profiles         | table | postgres
+ public | audit_logs              | table | postgres
+ public | card_assignments        | table | postgres
+ public | companies               | table | postgres
+ public | departments             | table | postgres
+ public | door_categories         | table | postgres
+ public | doors                   | table | postgres
+ public | employees               | table | postgres
+ public | profile_door_signatures | table | postgres
+ public | profile_doors           | table | postgres
+ public | schema_migrations       | table | postgres
+ public | users                   | table | postgres
+(12 rows)
+WARNING:  database "postgres" has a collation version mismatch
+DETAIL:  The database was created using collation version 2.35, but the operating system provides version 2.39.
+HINT:  Rebuild all objects in this database that use the default collation and run ALTER DATABASE postgres REFRESH COLLATION VERSION, or build PostgreSQL with the right library version.
+The Internet is a massive, global system of interconnected computer networks,
+a "network of networks" using TCP/IP protocols to link
+private, public, academic, and government networks worldwide,
+enabling instant communication, information sharing (Web, email, streaming),
+and vast services like e-commerce, social media, and entertainment,
+transforming how people live, work, and learn.
+It works by transmitting data in packets across physical (cables, fiber optics)
+and wireless (Wi-Fi, cellular) connections, accessible through Internet Service Providers (ISPs).
+Key Aspects of the Internet:
+Global Connectivity: Links billions of devices (computers, phones, etc.) across the planet.
+Decentralized: No single entity owns or controls it; thousands of organizations manage interconnected networks.
+Information Hub: Hosts services like the World Wide Web (websites), email, file sharing, video calls, and more.
+Communication Backbone: Facilitates instant messaging, forums, and social networking.
+Foundation for Modern Life: Drives e-commerce, digital media, online education, and global business.

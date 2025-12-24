@@ -1,0 +1,17 @@
+Indexes:
+    "card_assignments_pkey" PRIMARY KEY, btree (assignment_id)
+    "idx_card_assignments_active" btree (is_active)
+    "idx_card_assignments_card" btree (card_number)
+    "idx_card_assignments_employee" btree (employee_id)
+    "idx_card_assignments_expiry" btree (expiry_date)
+Check constraints:
+    "card_assignments_check" CHECK (expiry_date IS NULL OR expiry_date > assigned_date)
+    "card_assignments_check1" CHECK (revoked_date IS NULL OR revoked_date >= assigned_date)
+Foreign-key constraints:
+    "card_assignments_employee_id_fkey" FOREIGN KEY (employee_id) REFERENCES employees(id) ON DELETE CASCADE
+    "card_assignments_revoked_by_fkey" FOREIGN KEY (revoked_by) REFERENCES users(id)
+Not-null constraints:
+    "card_assignments_assignment_id_not_null" NOT NULL "assignment_id"
+    "card_assignments_card_number_not_null" NOT NULL "card_number"
+    "card_assignments_employee_id_not_null" NOT NULL "employee_id"
+Access method: heap

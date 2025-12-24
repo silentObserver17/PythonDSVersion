@@ -1,0 +1,16 @@
+                   List of tables
+ Schema |          Name           | Type  |  Owner
+--------+-------------------------+-------+----------
+ public | access_profiles         | table | postgres
+ public | audit_logs              | table | postgres
+ public | card_assignments        | table | postgres
+ public | companies               | table | postgres
+ public | departments             | table | postgres
+ public | door_categories         | table | postgres
+ public | doors                   | table | postgres
+ public | employees               | table | postgres
+ public | profile_door_signatures | table | postgres
+ public | profile_doors           | table | postgres
+ public | schema_migrations       | table | postgres
+ public | users                   | table | postgres
+(12 rows)
